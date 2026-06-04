@@ -1,3 +1,5 @@
+[![GitHub License](https://img.shields.io/github/license/radiant-delta/Yandex-Disk-Backup)](https://github.com/radiant-delta/Yandex-Disk-Backup/blob/main/LICENSE)
+
 Скрипт для загрузки зашифрованного архива на Яндекс.Диск  
 Поскольку аудитория Яндекс.Диска на 99% русскоязычная, readme.md на русском.  
 Я использую в первую очередь для резервного копирования хранилища obsidian, но можно закидывать на Яндекс.Диск любую папку.  
