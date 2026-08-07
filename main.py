@@ -22,7 +22,7 @@ def vpn_check() -> int:
     interfaces = psutil.net_if_stats().keys()
     
     # Если AmneziaVPN есть в списке — возвращаем 1, если нет — 0
-    if "AmneziaVPN" in interfaces:
+    if any(x in interfaces for x in ["AmneziaVPN", "tun2"]):
         return 1
     return 0
 
